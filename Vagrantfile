@@ -32,5 +32,6 @@ Vagrant.configure("2") do |config|
 
 
 	config.vm.provision :shell, inline: "echo Good job, now enjoy your new vbox: http://192.168.33.11"
+	config.vm.provision :shell, inline: "echo Add line: 192.168.33.11 project.dev to /etc/hosts"
 end
  
