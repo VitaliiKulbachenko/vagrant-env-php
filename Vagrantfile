@@ -2,7 +2,7 @@
 # vi: set ft=ruby :
 Vagrant.configure("2") do |config|
 	# имя в `vagrant global-status`
-	config.vm.define "centos7-lamp" do |t|
+	config.vm.define "centos7-lamp-httpd" do |t|
 	end
 
 	config.vm.box = "VitaliiKulbachenko/centos7-lamp-httpd"
