@@ -6,6 +6,7 @@ Vagrant.configure("2") do |config|
 	end
 
 	config.vm.box = "VitaliiKulbachenko/centos7-lamp-httpd"
+	config.vm.box_version = "1"
 	#config.ssh.username = "vagrant"
 	#config.ssh.password = "vagrant"
 	config.vm.hostname = "default.dev"
