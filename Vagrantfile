@@ -2,10 +2,10 @@
 # vi: set ft=ruby :
 Vagrant.configure("2") do |config|
 	# имя в `vagrant global-status`
-	config.vm.define "VitaliiKulbachenko/centos7-lamp-httpd" do |t|
+	config.vm.define "centos7-lamp" do |t|
 	end
 
-	config.vm.box = "centos/7"
+	config.vm.box = "VitaliiKulbachenko/centos7-lamp-httpd"
 	#config.ssh.username = "vagrant"
 	#config.ssh.password = "vagrant"
 	config.vm.hostname = "default.dev"
